@@ -955,12 +955,12 @@ wip::before {
     overflow-x: hidden;
 }
 .server-box::after {
+    content: "";
     width: 95px;
-    text-align: center;
-    flex-shrink: 0;
+    height: 100%;
     background-color: #eceef0;
-    border-right: 2px solid #b5bcc4;
-    padding: 3px 0;
+    border-right: 2px solid #cdd3da;
+    z-index: 0;
 }
 
 .server-box table {
