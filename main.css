@@ -976,6 +976,7 @@ wip::before {
     background-color: #eceef0;
     border-right: 2px solid #cdd3da;
     box-sizing: border-box;
+    background: transparent;
     text-align: center;
     flex-shrink: 0;
 }
