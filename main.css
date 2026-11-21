@@ -961,7 +961,6 @@ wip::before {
     background-color: #eceef0;
     border-right: 2px solid #b5bcc4;
     padding: 3px 0;
-    z-index: 0;
 }
 
 .server-box table {
@@ -980,7 +979,6 @@ wip::before {
     background-color: #eceef0;
     border-right: 2px solid #b5bcc4;
     padding: 3px 0;
-    z-index: 2;
 }
 
 .info-col {
