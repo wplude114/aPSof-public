@@ -949,7 +949,7 @@ wip::before {
 .server-box {
     height: 100px;
     border: 2px solid #b5bcc4;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: #ffffff;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -965,6 +965,7 @@ wip::before {
     background-color: #eceef0;
     border-right: 2px solid #b5bcc4;
     pointer-events: none;
+    z-index: 0;
 }
 
 .server-box table {
@@ -983,6 +984,7 @@ wip::before {
     background-color: #eceef0;
     border-right: 2px solid #b5bcc4;
     padding: 3px 0;
+    z-index: 1;
 }
 
 .info-col {
