@@ -947,7 +947,7 @@ wip::before {
 
 /* create server selector v2 blalalah */
 .server-box {
-  height: 150px;
+  height: 100%;
   border: 2px solid #b5bcc4;
   border-radius: 5px;
   background-color: #ffffff;
