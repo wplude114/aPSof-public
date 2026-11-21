@@ -956,6 +956,14 @@ wip::before {
     display: flex;
     flex-direction: column;
 }
+.server-box::after {
+    width: 95px;
+    background-color: #eceef0;
+    border-right: 1px solid #cdd3da;
+    padding: 3px 12px;
+    text-align: center;
+    flex-shrink: 0;
+}
 
 .server-row {
     flex: 1;
