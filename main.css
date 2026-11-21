@@ -962,7 +962,6 @@ wip::before {
     left: 0;
     width: 95px;
     height: 100%;
-    padding: 3px 12px;
     background-color: #eceef0;
     border-right: 2px solid #cdd3da;
     z-index: 0;
@@ -973,6 +972,8 @@ wip::before {
 }
 
 .ping-col {
+    top: 0;
+    left: 0;
     width: 95px;
     background-color: #eceef0;
     border-right: 2px solid #cdd3da;
