@@ -965,7 +965,7 @@ wip::before {
     width: 95px;
     height: 100px;
     background-color: #eceef0;
-    border-right: 2px solid #cdd3da;
+    border: 2px dashed #cdd3da;
     z-index: 0;
 }
 .server-row {
