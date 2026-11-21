@@ -960,12 +960,10 @@ wip::before {
     position: absolute;
     content: "";
     border-radius: 3px;
-    top: 0;
-    left: 0;
     width: 95px;
     height: 100px;
     background-color: #eceef0;
-    border: 2px dashed #b5bcc4;
+    border: 2px solid #b5bcc4;
     z-index: 0;
 }
 .server-row {
