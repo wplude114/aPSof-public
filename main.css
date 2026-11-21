@@ -973,11 +973,12 @@ wip::before {
 
 .ping-col {
     width: 95px;
-    background: transparent;
     /*background-color: #eceef0;
     border-right: 2px solid #cdd3da;*/
+    box-sizing: border-box;
+    background: transparent;
     text-align: center;
-    flex-shrink: 0;
+    /*flex-shrink: 0;*/
 }
 
 .info-col {
