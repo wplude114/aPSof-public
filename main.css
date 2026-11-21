@@ -949,7 +949,7 @@ wip::before {
 .server-box {
     height: 100px;
     border: 2px solid #b5bcc4;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: #ffffff;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -959,13 +959,13 @@ wip::before {
 .server-box::after {
     position: absolute;
     content: "";
-    border-radius: 5px;
-    /*top: 0;
-    left: 0;*/
+    border-radius: 3px;
+    top: 0;
+    left: 0;
     width: 95px;
     height: 100px;
     background-color: #eceef0;
-    border: 2px dashed #cdd3da;
+    border: 2px dashed #b5bcc4;
     z-index: 0;
 }
 .server-row {
