@@ -959,7 +959,7 @@ wip::before {
 
 .server-row {
     flex: 1;
-    padding: 3px 14px;
+    display: flex;
 }
 
 .ping-col {
