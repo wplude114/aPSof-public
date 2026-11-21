@@ -964,7 +964,7 @@ wip::before {
     height: 100%;
     padding: 3px 12px;
     background-color: #eceef0;
-    border-right: 1px solid #cdd3da;
+    border-right: 2px solid #cdd3da;
     z-index: 0;
 }
 .server-row {
@@ -975,8 +975,7 @@ wip::before {
 .ping-col {
     width: 95px;
     background-color: #eceef0;
-    border-right: 1px solid #cdd3da;
-    padding: 3px 12px;
+    border-right: 2px solid #cdd3da;
     text-align: center;
     flex-shrink: 0;
 }
