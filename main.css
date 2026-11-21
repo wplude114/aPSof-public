@@ -944,3 +944,34 @@ wip::before {
     font-size: 0.75em;
     font-weight: bold;
 }
+
+/* create server selector v2 blalalah */
+.server-box {
+  height: 150px;
+  border: 2px solid #b5bcc4;
+  border-radius: 5px;
+  background-color: #ffffff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.server-row {
+  display: flex;
+  flex: 1;
+}
+
+.ping-col {
+  width: 95px;
+  background-color: #eceef0;
+  border-right: 1px solid #cdd3da;
+  padding: 6px 12px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.info-col {
+  flex: 1;
+  padding: 6px 14px;
+}
