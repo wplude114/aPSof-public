@@ -959,6 +959,7 @@ wip::before {
 .server-box::after {
     position: absolute;
     content: "";
+    border-radius: 5px;
     /*top: 0;
     left: 0;*/
     width: 95px;
