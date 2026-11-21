@@ -954,6 +954,15 @@ wip::before {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+.server-box::after {
+    width: 95px;
+    text-align: center;
+    flex-shrink: 0;
+    background-color: #eceef0;
+    border-right: 2px solid #b5bcc4;
+    padding: 3px 0;
+    z-index: 0;
+}
 
 .server-box table {
     border-collapse: collapse;
@@ -971,6 +980,7 @@ wip::before {
     background-color: #eceef0;
     border-right: 2px solid #b5bcc4;
     padding: 3px 0;
+    z-index: 2;
 }
 
 .info-col {
