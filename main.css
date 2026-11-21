@@ -956,15 +956,6 @@ wip::before {
     display: flex;
     flex-direction: column;
 }
-.server-box::after {
-    content: "";
-    border-radius: 3px;
-    width: 95px;
-    height: 100%;
-    background-color: #eceef0;
-    border: 2px solid #b5bcc4;
-    z-index: 0;
-}
 .server-row {
     flex: 1;
     display: flex;
@@ -972,10 +963,10 @@ wip::before {
 
 .ping-col {
     width: 95px;
-    box-sizing: border-box;
-    background: transparent;
     text-align: center;
     flex-shrink: 0;
+    background-color: #eceef0;
+    border-right: 2px solid #b5bcc4;
 }
 
 .info-col {
