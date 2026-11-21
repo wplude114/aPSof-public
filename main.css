@@ -962,6 +962,7 @@ wip::before {
     left: 0;
     width: 95px;
     height: 100%;
+    padding: 3px 12px;
     background-color: #eceef0;
     border-right: 1px solid #cdd3da;
     z-index: 0;
