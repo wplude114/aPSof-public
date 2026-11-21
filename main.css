@@ -963,7 +963,7 @@ wip::before {
     width: 95px;
     height: 100%;
     background-color: #eceef0;
-    border-right: 2px solid #b5bcc4;
+    border-right: 2px dashed #b5bcc4;
     pointer-events: none;
     z-index: 0;
 }
